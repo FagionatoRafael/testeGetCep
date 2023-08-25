@@ -37,7 +37,7 @@ class MainActivity: AppCompatActivity() {
             binding.complemento.text =  "Complemento: "
             binding.bairro.text = "Bairro; "
             binding.localidade.text = "Localidade: "
-            binding.uf.text = "UF: "3
+            binding.uf.text = "UF: "
 
             cepService = CepService()
             cepService.getInformations(binding.inputCep.text.toString())
